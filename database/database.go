@@ -77,7 +77,7 @@ func Setup() {
 func FindConnections(date string, from string, to string, limit int) ([]any, error) {
 	var (
 		/*
-			Previously had typed variables but when using these, the append updated flights for all conneciton to be the same as the last one
+			Previously had typed variables but when using these, the append updated flights for all connecitons to be the same as the last one
 			connection  Connection
 			connections []Connection
 		*/
