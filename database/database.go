@@ -153,7 +153,6 @@ func FindConnections(date string, from string, to string, limit int) ([]any, err
 			connections = append(connections, connection)
 		}
 	}
-	fmt.Printf("%+v\n", connections)
 	return connections, nil
 }
 
